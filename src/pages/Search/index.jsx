@@ -30,7 +30,7 @@ class Search extends Component {
         return (
             <li key={`item_${item.id}`}>
                 {item.title}
-                <Button id={item.id} />
+                <Button label="Abrir o produto" handleClick={ () => (alert('Alert')) } />
             </li>
         );
     }
